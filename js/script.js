@@ -14,7 +14,7 @@ switch (input.value) {
             It may support heart health and digestion.<br>  🍎
             Apples are also a good source of vitamin C.  
           `;    
-              head.style.color = "red";
+              head.style.color = "pink";
 
           break;
           
@@ -25,6 +25,8 @@ switch (input.value) {
     It contains antioxidants and fiber.<br> 🥭
     Mango may support healthy digestion.
   `
+                head.style.color = "coral";
+
           break;
 
   case "avocado":
@@ -34,11 +36,15 @@ switch (input.value) {
     It is a good source of potassium and vitamins.<br> 🥑
     Avocado may support heart health.
   `;
+                head.style.color = "green";
+
           break;
 
 
   default:
     head.innerHTML = "Sorry! We don't have information about this fruit."
+                  head.style.color = "red";
+
     break;
 }
 
