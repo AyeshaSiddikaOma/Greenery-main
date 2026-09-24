@@ -1,6 +1,9 @@
-let fruit = "pineapple";
 
-switch (fruit) {
+
+let input = document.querySelector('#input').value
+
+
+switch (input) {
   case "apple":
     console.log("It is red");
     break;
