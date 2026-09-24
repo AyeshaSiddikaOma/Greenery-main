@@ -1,6 +1,9 @@
 
 
 let input = document.querySelector('#input').value
+let btn = document.querySelector('#btn')
+
+btn.addEventListener('click',()=>{
 
 
 switch (input) {
@@ -16,3 +19,5 @@ switch (input) {
     console.log("Pleae Enter The Name Of Any Fruit")
     break;
 }
+
+})
